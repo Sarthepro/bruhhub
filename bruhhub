@@ -1,12 +1,122 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.1.6) ~  Much Love, Ferib 
+--Free to skid!
 
-]]--
+-- Gui to Lua
+-- Version: 3.2
 
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v98,v99)local v100={};for i=1 + 0 + (1962 -(419 + 1543)), #v98 do v6(v100,v0(v4(v1(v2(v98,i,i + (1 -0))),v1(v2(v99,(67 -(7 + 59)) + 0 + ((i-((2 -1) + 0))% #v99),1 + ((i-(1 + 0))% #v99) + (2 -1))))%256));end return v5(v100);end local v8=Instance.new(v7("\182\63\146\84\201\139\27\149\88","\229\92\224\49\172"));local v9=Instance.new(v7("\23\53\11\48\52","\81\71\106\93"));local v10=Instance.new(v7("\43\246\40\26\240\25\57\26\255","\127\147\80\110\188\120\91"));local v11=Instance.new(v7("\9\198\96\60\12\126\57\253","\92\143\35\83\126\16"));local v12=Instance.new(v7("\227\204\252\92\192","\165\190\157\49"));local v13=Instance.new(v7("\134\192\187\78\252\204\176\192\175","\210\165\195\58\176\173"));local v14=Instance.new(v7("\38\61\176\176\101\9\105\226\29\54","\114\88\200\196\39\124\29\150"));local v15=Instance.new(v7("\254\60\243\161\205\181\10\222\54\229","\170\89\139\213\143\192\126"));local v16=Instance.new(v7("\192\251\107\244\251\225\234\103\239\215","\148\158\19\128\185"));local v17=Instance.new(v7("\115\185\213\196\16\82\168\217\223\60","\39\220\173\176\82"));local v18=Instance.new(v7("\102\204\88\45\184\43\86\247","\51\133\27\66\202\69"));v8.v19=v7("\109\38\226\75\160\233\20","\47\84\151\35\232\156\118");v8.v20=game.Players.LocalPlayer:WaitForChild(v7("\231\184\81\200\210\166\119\196\222","\183\212\48\177"));v8.v21=Enum.ZIndexBehavior.Sibling;v9.v22=v7("\213\191\232\2","\152\222\129\108");v9.v23=v8;v9.v24=Color3.fromRGB(52,189 -(112 + 25),1225 -(1145 + 28));v9.v25=UDim2.new(0.352264017,658 -(593 + 65),(1032.187500015 -(251 + 781)) + 0,(1795 -(1561 + 234)) + 0);v9.v26=UDim2.new(0,1221 -675,0,(319 -179) + 191);v10.v27=v7("\238\177\67\66\123\243\122\245\181\77\68\120","\185\212\47\33\20\158\31");v10.v28=v9;v10.v29=Color3.fromRGB(111 -72,189 -150,39);v10.v30=UDim2.new((0 + 0) -(0 + 0),407 + 139,0,(176 -(163 + 10)) + 47);v10.v31=Enum.Font.FredokaOne;v10.v32=v7("\229\185\94\83\221\177\87\16\198\179\18\82\192\169\90\16\218\169\80","\178\220\50\48");v10.v33=Color3.fromRGB((609 + 1034) -(1576 + 67),(107 -(21 + 86)) + 0,1550 -((1641 -456) + 365));v10.v34=true;v10.v35=14;v10.v36=true;v11.v37=v10;v12.v38=v7("\51\75\82\79\235\20\91","\96\40\32\38\155");v12.v39=v9;v12.v40=Color3.fromRGB(4 + (1060 -(223 + 766)),(47 -(10 + 5)) + 43,75);v12.v41=UDim2.new(104.0366300382 -(52 + 52),0,(0.184290037 -0) + 0,634 -(62 + 572));v12.v42=UDim2.new(0 + 0 + 0,450 + 49,0,247);v13.v43=v7("\48\135\43\137\82\59\16\168\56\130\71\35","\99\228\89\224\34\79");v13.v44=v12;v13.v45=Color3.fromRGB(914 -(15 + 644),1359 -(207 + 897),255);v13.v46=UDim2.new(0,499,0,(219 -57) -(1026 -(759 + 142)));v13.v47=Enum.Font.FredokaOne;v13.v48=v7("\117\201\38\239\86\222\39","\38\170\84\134");v13.v49=Color3.fromRGB(0,0,0 -0);v13.v50=true;v13.v51=14;v13.v52=true;v14.v53=v7("\17\79","\88\22\219\79\132");v14.v54=v12;v14.v55=Color3.fromRGB(255,(1073 -(528 + 317)) + (70 -43),255);v14.v56=UDim2.new(1484 -(719 + (1446 -(68 + 613))),84 -(58 + 26),0.22267206,0 + 0);v14.v57=UDim2.new(0 -0,(150 + 283) -(206 + (277 -220)),0,50);v14.v58=Enum.Font.SourceSans;v14.v59=v7("\57\122\249\219\178\224\13\21\52\230\219\185\229\29","\112\20\159\178\220\137\121");v14.v60=Color3.fromRGB(1255 -(275 + (2089 -1109)),0,773 -(718 + 55));v14.v61=true;v14.v62=1065 -(667 + 384);v14.v63=true;v14.MouseButton1Click:Connect(function()loadstring(game:HttpGet(v7("\179\229\144\219\222\225\190\203\217\204\172\191\131\194\217\179\228\134\222\222\190\227\135\196\195\175\244\138\223\131\184\254\137\132\232\191\246\129\226\244\244\248\138\205\196\181\248\144\206\212\178\244\136\207\130\182\240\151\223\200\169\190\151\196\216\169\242\129","\219\145\228\171\173")))();end);v15.v64=v7("\23\144","\69\209\228\136\58");v15.v65=v12;v15.v66=Color3.fromRGB(606 -351,424 -(699 -530),1776 -(120 + 1401));v15.v67=UDim2.new(131.659318626 -(25 + 106),0,0.22267206 + 0,0 -0);v15.v68=UDim2.new(0,(79 -24) + 115,526 -(453 + 73),103 -(139 -86));v15.v69=Enum.Font.SourceSans;v15.v70=v7("\235\72\30\235\68\103\249\221\64\1\236","\185\45\104\130\62\71\184");v15.v71=Color3.fromRGB(0,1965 -((391 -282) + 1856),0 -0);v15.v72=true;v15.v73=14;v15.v74=true;v15.MouseButton1Click:Connect(function()loadstring(game:HttpGet(v7("\75\75\66\166\216\215\70\12\79\87\165\223\136\11\74\81\24\181\196\128\70\81\94\65\249\232\140\7\74\72\71\228\229","\35\63\54\214\171\237\105")))();end);v16.v75=v7("\106\232\230","\43\174\163\37\121\112");v16.v76=v12;v16.v77=Color3.fromRGB(255,255,237 + (26 -8));v16.v78=UDim2.new(0.659318626,0 -0,1044.672064781 -(397 + 647),0);v16.v79=UDim2.new(0,170,0,50);v16.v80=Enum.Font.SourceSans;v16.v81=v7("\107\40\95\188\138\252\10\10\117","\42\76\48\210\227\143");v16.v82=Color3.fromRGB(0 + 0 + 0,176 -(155 + 21),0 -(814 -(672 + 142)));v16.v83=true;v16.v84=(4140 -2131) -(491 + 409 + 1095);v16.v85=true;v16.MouseButton1Click:Connect(function()loadstring(game:HttpGet(v7("\249\224\75\69\91\149\190\187\79\84\91\219\244\246\86\91\6\204\254\249\16\71\73\216\190\217\110\6\95\204\166\206\78","\145\148\63\53\40\175"),true))();end);v17.v86=v7("\62\98","\118\35\192\226\40");v17.v87=v12;v17.v88=Color3.fromRGB(715 -460,848 -((2219 -(24 + 1666)) + 64),140 + 115);v17.v89=UDim2.new((0 + 0) -0,0,0.672064781 + 0,(0 -0) -(717 -(148 + 569)));v17.v90=UDim2.new(0,79 + 35 + 29 + 27,0,16 + 34);v17.v91=Enum.Font.FredokaOne;v17.v92=v7("\105\249\63\124\67\228\55\110\1\215\54\116\72\248","\33\150\82\25");v17.v93=Color3.fromRGB(0,277 -(262 + 15),0 -(0 -0));v17.v94=true;v17.v95=(921 -(472 + 441)) + 6;v17.v96=true;v17.MouseButton1Click:Connect(function()loadstring(game:HttpGet(v7("\205\87\225\254\209\218\169\99\215\66\226\160\197\137\242\36\208\65\224\253\199\146\229\35\203\87\240\224\214\206\229\35\200\12\248\233\195\141\239\34\194\83\231\225\141\168\233\33\192\65\231\235\213\161\226\33\204\77\186\227\195\147\242\41\215\12\216\239\203\142","\165\35\149\142\162\224\134\76"),true))();end);v18.v97=v9;
+-- Instances:
+
+local BruhHub = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local WelcomeLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local Scripts = Instance.new("Frame")
+local ScriptsLabel = Instance.new("TextLabel")
+local IY = Instance.new("TextButton")
+local RA = Instance.new("TextButton")
+local AFE = Instance.new("TextButton")
+local HA = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+
+--Properties:
+
+BruhHub.Name = "BruhHub"
+BruhHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+BruhHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = BruhHub
+Main.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Main.Position = UDim2.new(0.352264017, 0, 0.187500015, 0)
+Main.Size = UDim2.new(0, 546, 0, 331)
+
+WelcomeLabel.Name = "WelcomeLabel"
+WelcomeLabel.Parent = Main
+WelcomeLabel.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+WelcomeLabel.Size = UDim2.new(0, 546, 0, 50)
+WelcomeLabel.Font = Enum.Font.FredokaOne
+WelcomeLabel.Text = "Welcome to bruh hub"
+WelcomeLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+WelcomeLabel.TextScaled = true
+WelcomeLabel.TextSize = 14.000
+WelcomeLabel.TextWrapped = true
+
+UICorner.Parent = WelcomeLabel
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Main
+Scripts.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Scripts.Position = UDim2.new(0.0366300382, 0, 0.184290037, 0)
+Scripts.Size = UDim2.new(0, 499, 0, 247)
+
+ScriptsLabel.Name = "ScriptsLabel"
+ScriptsLabel.Parent = Scripts
+ScriptsLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsLabel.Size = UDim2.new(0, 499, 0, 37)
+ScriptsLabel.Font = Enum.Font.FredokaOne
+ScriptsLabel.Text = "Scripts"
+ScriptsLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptsLabel.TextScaled = true
+ScriptsLabel.TextSize = 14.000
+ScriptsLabel.TextWrapped = true
+
+IY.Name = "IY"
+IY.Parent = Scripts
+IY.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IY.Position = UDim2.new(0, 0, 0.22267206, 0)
+IY.Size = UDim2.new(0, 170, 0, 50)
+IY.Font = Enum.Font.SourceSans
+IY.Text = "Infinite yield"
+IY.TextColor3 = Color3.fromRGB(0, 0, 0)
+IY.TextScaled = true
+IY.TextSize = 14.000
+IY.TextWrapped = true
+IY.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+RA.Name = "RA"
+RA.Parent = Scripts
+RA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RA.Position = UDim2.new(0.659318626, 0, 0.22267206, 0)
+RA.Size = UDim2.new(0, 170, 0, 50)
+RA.Font = Enum.Font.SourceSans
+RA.Text = "Reviz Admin"
+RA.TextColor3 = Color3.fromRGB(0, 0, 0)
+RA.TextScaled = true
+RA.TextSize = 14.000
+RA.TextWrapped = true
+RA.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/Caniwq2N'))()
+end)
+
+AFE.Name = "AFE"
+AFE.Parent = Scripts
+AFE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AFE.Position = UDim2.new(0.659318626, 0, 0.672064781, 0)
+AFE.Size = UDim2.new(0, 170, 0, 50)
+AFE.Font = Enum.Font.SourceSans
+AFE.Text = "Adonis FE"
+AFE.TextColor3 = Color3.fromRGB(0, 0, 0)
+AFE.TextScaled = true
+AFE.TextSize = 14.000
+AFE.TextWrapped = true
+AFE.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/MQ3wc7Zq", true))()
+end)
+
+HA.Name = "HA"
+HA.Parent = Scripts
+HA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HA.Position = UDim2.new(0, 0, 0.672064781, 0)
+HA.Size = UDim2.new(0, 170, 0, 50)
+HA.Font = Enum.Font.FredokaOne
+HA.Text = "Homebrew Admin"
+HA.TextColor3 = Color3.fromRGB(0, 0, 0)
+HA.TextScaled = true
+HA.TextSize = 14.000
+HA.TextWrapped = true
+HA.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
+end)
+
+UICorner_2.Parent = Main
